@@ -1,0 +1,15 @@
+.alert__container {
+  background: var(--color-primary);
+  width: 100%;
+  /* max-width: 75vw; */
+  height: 30%;
+  text-align: center;
+  color: var(--color-bg);
+  border-radius: 1rem;
+  gap: 0;
+  padding: 1.5rem;
+}
+
+.title {
+  font-size: 1.5rem;
+}

@@ -36,10 +36,12 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-            nesciunt, autem odio nostrum nihil eligendi saepe quis distinctio
-            error sed, aperiam hic, cumque asperiores rem illo aspernatur alias
-            est vitae?
+            I am a Full-stack Developer, graduated from Henry Bootcamp. I have
+            long experience of working in professional teams as a leader as well
+            as a collaborator. I like meeting people from different countries
+            and speaking English. I have always been interested in technology. I
+            would love to work in a company where I could apply my knowledge and
+            skills to solve new challenges.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

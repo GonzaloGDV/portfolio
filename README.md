@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-![porfolio](https://github.com/GonzaloGDV/portfolio/tree/main/src/assets/screenShotPortfolio.png)
+![porfolio](https://github.com/GonzaloGDV/portfolio/blob/main/src/assets/screenShotPortfolio.png)
 
 ## About
 

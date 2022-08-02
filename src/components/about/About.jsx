@@ -27,7 +27,7 @@ const About = () => {
             <article className="about__card">
               <ImBooks className="about__icon" />
               <h5>Background</h5>
-              <small>Bachelor in Administration</small>
+              <small>Bachelor of Administration</small>
             </article>
             <article className="about__card">
               <FaRunning className="about__icon" />

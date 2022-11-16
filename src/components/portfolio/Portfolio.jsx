@@ -22,7 +22,7 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: 'Circus Cotillón',
+    title: 'Circus Cotillón - "Work in Progress"',
     github: 'https://github.com/CotillonCircus/WebApp',
     demo: 'https://circuscotillon.com',
   },

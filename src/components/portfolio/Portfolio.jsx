@@ -3,6 +3,7 @@ import './portfolio.css';
 import IMG1 from '../../assets/portfolio-dogs.png';
 import IMG2 from '../../assets/portfolio-codebug.png';
 import IMG3 from '../../assets/portfolio-circus.png';
+import IMG4 from '../../assets/portfolio-acros.png';
 
 const data = [
   {
@@ -10,7 +11,7 @@ const data = [
     image: IMG1,
     title: 'Dogs App',
     github: 'https://github.com/GonzaloGDV/PI-Dogs',
-    demo: 'https://dogs-ggdv.up.railway.app/home',
+    demo: 'https://dogs-ggdv.up.railway.app',
   },
   {
     id: 2,
@@ -22,9 +23,16 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: 'Circus Cotillón - "Work in Progress"',
+    title: 'Circus Cotillón',
     github: 'https://github.com/CotillonCircus/WebApp',
     demo: 'https://circuscotillon.com',
+  },
+  {
+    id: 4,
+    image: IMG4,
+    title: 'Acros Training',
+    github: 'https://github.com/AcrosTraining/acros-app',
+    demo: 'https://testonline.acrostraining.com.ar/',
   },
 ];
 
@@ -43,10 +51,20 @@ const Portfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className='portfolio__item-cta'>
-                <a href={github} className='btn' target='_blank'>
+                <a
+                  href={github}
+                  className='btn'
+                  rel='noreferrer'
+                  target='_blank'
+                >
                   Github
                 </a>
-                <a href={demo} className='btn btn-primary' target='_blank'>
+                <a
+                  href={demo}
+                  className='btn btn-primary'
+                  rel='noreferrer'
+                  target='_blank'
+                >
                   Live Demo
                 </a>
               </div>

@@ -24,14 +24,12 @@ const data = [
     id: 3,
     image: IMG3,
     title: 'Circus Cotillón',
-    github: 'https://github.com/CotillonCircus/WebApp',
     demo: 'https://circuscotillon.com',
   },
   {
     id: 4,
     image: IMG4,
     title: 'Acros Training',
-    github: 'https://github.com/AcrosTraining/acros-app',
     demo: 'https://testonline.acrostraining.com.ar/',
   },
 ];
@@ -51,14 +49,16 @@ const Portfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className='portfolio__item-cta'>
-                <a
-                  href={github}
-                  className='btn'
-                  rel='noreferrer'
-                  target='_blank'
-                >
-                  Github
-                </a>
+                {github && (
+                  <a
+                    href={github}
+                    className='btn'
+                    rel='noreferrer'
+                    target='_blank'
+                  >
+                    Github
+                  </a>
+                )}
                 <a
                   href={demo}
                   className='btn btn-primary'

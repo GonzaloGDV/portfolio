@@ -11,7 +11,7 @@ const data = [
     image: IMG1,
     title: 'Dogs App',
     github: 'https://github.com/GonzaloGDV/PI-Dogs',
-    demo: 'https://dogs-ggdv.up.railway.app',
+    demo: 'https://pi-dogs-gonzalogdv.vercel.app',
   },
   {
     id: 2,
